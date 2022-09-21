@@ -17,5 +17,22 @@ header {
 
 nav {
   display: flex;
+  align-items: center;
+  justify-content: center;
   border: solid blue 2px;
+  width: 40%;
+  height: 70vh;
+  margin-left: 15px;
+}
+.article {
+  display: flex;
+  flex-direction: column;
+  border: solid green 2px;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+}
+.main-container {
+  display: flex;
+  flex-direction: row;
 }
