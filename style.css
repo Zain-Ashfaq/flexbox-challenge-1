@@ -61,7 +61,25 @@ nav {
     justify-content: center;
     border: solid blue 2px;
     width: 95%;
-    height: 30vh;
+    height: 20vh;
     margin-left: 15px;
+  }
+  .article {
+    display: flex;
+    flex-direction: row;
+    border: solid green 2px;
+    margin: 15px;
+    width: 95%;
+    height: 45vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .individual-boxes {
+    margin: 50px;
+    border: solid yellow 2px;
+  }
+  #text {
+    display: flex;
+    flex-direction: row;
   }
 }
