@@ -50,7 +50,18 @@ nav {
 }
 
 @media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
-  body {
-    color: aqua;
+  .main-container {
+    display: flex;
+    flex-direction: column;
+  }
+  nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: solid blue 2px;
+    width: 95%;
+    height: 30vh;
+    margin-left: 15px;
   }
 }
