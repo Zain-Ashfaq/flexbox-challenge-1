@@ -49,6 +49,7 @@ nav {
   }
 }
 
+/* For tablet devices */
 @media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
   .main-container {
     display: flex;
@@ -81,5 +82,35 @@ nav {
   #text {
     display: flex;
     flex-direction: row;
+  }
+}
+
+/* for mobile phone devices */
+
+@media screen and (min-device-width: 300px) and (max-device-width: 767px) {
+  body {
+    color: red;
+  }
+  .main-container {
+    display: flex;
+    flex-direction: column;
+  }
+  nav {
+    align-items: center;
+    justify-content: center;
+    border: solid blue 2px;
+    width: 95%;
+    height: 10vh;
+    margin-left: 15px;
+  }
+  .article {
+    align-items: center;
+    justify-content: center;
+    border: solid green 2px;
+    margin: 15px;
+    width: 95%;
+    height: 35vh;
+    justify-content: center;
+    align-items: center;
   }
 }
